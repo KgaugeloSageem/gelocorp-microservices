@@ -7,9 +7,9 @@ public class ToDo {
     @Id
     private String id;
 
-    private String title;
+    private final String title;
 
-    private Boolean completed;
+    private final Boolean completed;
 
     public ToDo(String title, Boolean completed){
         this.title = title;
