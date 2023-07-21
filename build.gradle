@@ -9,7 +9,7 @@ group = 'com.gelocorp'
 version = '0.0.1-SNAPSHOT'
 
 java {
-	sourceCompatibility = '20'
+	sourceCompatibility = '17'
 }
 
 configurations {
@@ -40,11 +40,11 @@ tasks.named('test') {
 }
 compileKotlin {
 	kotlinOptions {
-		jvmTarget = "20"
+		jvmTarget = "17"
 	}
 }
 compileTestKotlin {
 	kotlinOptions {
-		jvmTarget = "20"
+		jvmTarget = "17"
 	}
 }
